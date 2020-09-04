@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+form {
+  position: fixed;
+  padding-bottom: 30px;
+  bottom: 0;
+  background-color: black;
+  max-width: 1200px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+form #text {
+  width: 60%;
+  height: 30px;
+}
+
+.message-contain {
+  width: 60%;
+  max-width: 1200px;
+}
+
+.message-contain div {
+  background-color: #ccc;
+  padding: 5px;
+}
+
+.message-contain div:nth-child(2n) {
+  background-color: whitesmoke;
+}
+/*# sourceMappingURL=style.css.map */
